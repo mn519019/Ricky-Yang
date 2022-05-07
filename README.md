@@ -1,4 +1,6 @@
 # Ricky-Yang
 
-This is for my daily analytics and stock management. 
-I do belive stock also requires general analytical skills and it does help me to boost my capital as well as the investment mindset.
+This repository is to share my IT knowledge and improve my future career.
+I believe this will help me stay up-to-date in the IT field. 
+My interest goes to Cloud Computing, System Admnistration, Automantion Development, and Networking
+Thank you for exploring my git! 
