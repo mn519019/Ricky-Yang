@@ -65,10 +65,10 @@
   
   - $ ssh username@remote_server 
    
-   Output
-   The authenticity of host '203.0.113.1 (203.0.113.1)' can't be established.
-   ECDSA key fingerprint is fd:fd:d4:f9:77:fe:73:84:e1:55:00:ad:d6:6d:22:fe.
-   Are you sure you want to continue connecting (yes/no)? yes
+    Output
+    The authenticity of host '203.0.113.1 (203.0.113.1)' can't be established.
+    ECDSA key fingerprint is fd:fd:d4:f9:77:fe:73:84:e1:55:00:ad:d6:6d:22:fe.
+    Are you sure you want to continue connecting (yes/no)? yes
   
   - If you see you got into the new server in your terminal, this proves that the ssh   
   key authentication is completed! Congrats! 
