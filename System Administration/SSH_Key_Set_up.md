@@ -17,10 +17,12 @@ Step 1 - Creating the key pair
   $ ssh-keygen
   
   #Please hit the enter key to process further
+  
   Output
   Generating public/private rsa key pair.
   Enter file in which to save the key (/your_home/.ssh/id_rsa):
   
-  #Please hit the enter key to process further or you can specify passphrase if you want 
+  #Please hit the enter key to process further or you can specify passphrase if you want
+  
   Output
   Enter passphrase (empty for no passphrase):
