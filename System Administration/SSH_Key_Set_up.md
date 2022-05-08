@@ -60,7 +60,7 @@
   Now try logging into the machine, with:   "ssh 'username@remote_server'"
   and check to make sure that only the key(s) you wanted were added.
   
-  # Step 3 - Authenticating to Your Ubuntu Server Using SSH Keys
+# Step 3 - Authenticating to Your Ubuntu Server Using SSH Keys
   
   - $ ssh username@remote_server 
 
@@ -70,6 +70,6 @@
   Are you sure you want to continue connecting (yes/no)? yes
   
   - If you see you got into the new server in your terminal, this proves that the ssh   
-  key authentication is completed! 
+  key authentication is completed! Congrats! 
   
   
