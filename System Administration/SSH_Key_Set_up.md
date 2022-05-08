@@ -1,3 +1,4 @@
+# Getting Started
 1. This doucment is written for ubuntu 20.04 
 2. It is important you have ssh packges installed on your server 
 3. People know the idea that key pairs exist but they sometimes got confused what key needs to be placed in the remote server 
@@ -5,7 +6,7 @@
 5. You are not going to share your private key anyone else since this will lead to the security breach so make sure you keep your private key safe! 
 
 
-# Step 1 - Creating the key pair 
+## Step 1 - Creating the key pair 
 - If you have exisiting ssh key or even not sure whether it exists. Please use the below command to see whether the id_rsa.pub and id_rsa files in the directory.
 
   $ cd ~/.ssh 
@@ -35,7 +36,7 @@
   - Now your public and private key will be stored in the ~/.ssh/ directory. 
 
 
-# Step 2 - Copying the public key to your remote server 
+## Step 2 - Copying the public key to your remote server 
 
 - Now, it's time to copy your public key to remote server and there is a command for you
 
@@ -60,7 +61,7 @@
   Now try logging into the machine, with:   "ssh 'username@remote_server'"
   and check to make sure that only the key(s) you wanted were added.
   
-# Step 3 - Authenticating to Your Ubuntu Server Using SSH Keys
+## Step 3 - Authenticating to Your Ubuntu Server Using SSH Keys
   
   - $ ssh username@remote_server 
 
