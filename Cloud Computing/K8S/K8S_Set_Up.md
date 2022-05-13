@@ -4,6 +4,16 @@
 - You can use either Ubuntu or Centos depending on your preference.
 
 ## Prerequistes
+- Docker is required to run kubernetes
+- Please download required version of Docker engine 
+- Cent OS: https://docs.docker.com/engine/install/centos/
+- Ubuntu OS: https://docs.docker.com/desktop/linux/install/ubuntu/
+
+```
+# This will show whether the docker engine is installed or not. 
+
+$ docker version
+```
 
 ## Installation 
 
