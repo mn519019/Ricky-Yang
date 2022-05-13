@@ -70,3 +70,32 @@ kubeadm join 10.100.0.104:6443 --token 1ou05o.kkist9u6fbc2uhp3 --discovery-token
 ### step 3: Installing a pod network add-on 
 
 - This ensures that your nodes are connected. Weave Net provides a network to connect all pods together, implementing the Kubernetes model. Kubernetes uses the Container Network Interface (CNI) to join pods onto Weave Net.
+
+``` 
+$ kubectl apply -f "https://cloud.weave.works/k8s/net?k8s-version=$(kubectl version | base64 | tr -d '\n')"
+
+$ kubectl get nodes
+```
+
+### step 4: Build a worker node and connect with master node 
+
+- SSH into node1 and node2 and please run the 'kubeadm join token' while running kubeadm init command on the master node 
+
+```
+# kubeadm join 10.100.0.104:6443 --token 1ou05o.kk...3 --discovery-token-ca-cert-hash sha256:8d9a7308ea6ff73.........576c112f326690
+
+```
+
+### step 5: Verification 
+
+```
+$ kubectl get nodes 
+
+# Below messages will show up if you are connected correctly 
+
+NAME                 STATUS   ROLES    AGE   VERSION
+master.example.com   Ready    master   10m   v1.18.0
+node1.example.com    Ready    <none>   17m   v1.18.0
+node2.example.com    Ready    <none>   17m   v1.18.0
+
+```
