@@ -67,4 +67,6 @@ kubeadm join 10.100.0.104:6443 --token 1ou05o.kkist9u6fbc2uhp3 --discovery-token
 $ cat > token.txt
 kubeadm join 10.100.0.104:6443 --token 1ou05o.kkist9u6fbc2uhp3 --discovery-token-ca-cert-hash sha256:8d9a7308ea6ff73.........576c112f326690
 ```
+### step 3: Installing a pod network add-on 
 
+- This ensures that your nodes are connected. Weave Net provides a network to connect all pods together, implementing the Kubernetes model. Kubernetes uses the Container Network Interface (CNI) to join pods onto Weave Net.
