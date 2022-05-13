@@ -38,5 +38,33 @@ sudo apt-get update
 sudo apt-get install -y kubelet kubeadm kubectl
 sudo apt-mark hold kubelet kubeadm kubectl
 ```
+### step 2: Build a master component and network environment setup
 
+- Please remember, this setup is only neeeded for the master node
+
+```
+# Create a single control-plane cluster with kubeadm
+
+$ kubeadm init
+
+# This will generate below messages 
+
+...
+To start using your cluster, you need to run the following as a regular user:
+
+# run this on the maseter node 
+mkdir -p $HOME/.kube
+sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+sudo chown $(id -u):$(id -g) $HOME/.kube/config
+...
+# remember the token 
+kubeadm join 10.100.0.104:6443 --token 1ou05o.kkist9u6fbc2uhp3 --discovery-token-ca-cert-hash sha256:8d9a7308ea6ff73.........576c112f326690
+
+```
+- It's important to remember toekn to join with other nodes with your master node. Thus, you can keep your token in your local desktop just in case. 
+
+``` 
+$ cat > token.txt
+kubeadm join 10.100.0.104:6443 --token 1ou05o.kkist9u6fbc2uhp3 --discovery-token-ca-cert-hash sha256:8d9a7308ea6ff73.........576c112f326690
+```
 
