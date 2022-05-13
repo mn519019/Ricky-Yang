@@ -20,9 +20,9 @@ $ docker version
 ### step 1: kubeadm, kubectl, kubelet
 - Please reference https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/
 
-kubeadm: the command to bootstrap the cluser
-kubelet: the component that runs on all of the machines in your cluster and does things like starting pods and containers.
-kubectl: the command line util to talk to your cluster.
+* kubeadm: the command to bootstrap the cluser
+* kubelet: the component that runs on all of the machines in your cluster and does things like starting pods and containers.
+* kubectl: the command line util to talk to your cluster.
 
 ```
 sudo apt-get update
