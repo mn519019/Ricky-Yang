@@ -48,6 +48,10 @@ spec:
 - <b>i</b> means interactive 
 - <b>t</b> means terminal 
 ```
-kubectl exec <pod name> -c <container name> -it -- /bin/bash 
+$ kubectl exec <pod name> -c <container name> -it -- /bin/bash 
 ```
-
+## troubleshooting pod ✨
+- It's common to see a trouble and you may want to see a log of the container 
+```
+$ kubectl logs <pod name> -c <contianer name> 
+```
