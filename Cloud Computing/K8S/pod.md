@@ -8,6 +8,7 @@
 ```
 # run with a docker image
 $ kubectl run webserver --image=nginx:latest 
+
 # run with a yaml file
 $ kubectl create -f pod-nginx.yaml 
 ```
