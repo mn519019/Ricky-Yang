@@ -42,4 +42,11 @@ spec:
     - sleep
     - "10000"
 ```
+## ssh into the pod from your master node a.k.a control-plane  ✔
+- It's similar like docker 
+- <b>i</b> means interactive 
+- <b>t</b> means terminal 
+```
+kubectl exec <pod name> -c <container name> -it -- /bin/bash 
+```
 
