@@ -18,6 +18,9 @@ $ kubectl describe node <node name>
 #Describe the pod details 
 $ kubectl describe pod <pod name> 
 
+#Deploy 3 pods using nginx image
+kubectl create deploy webui --image=nginx:latest --replics=3 
+
 
 
 
