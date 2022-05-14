@@ -21,6 +21,10 @@ $ kubectl describe pod <pod name>
 #Deploy 3 pods using nginx image
 kubectl create deploy webui --image=nginx:latest --replics=3 
 
+#Create a namespace for your needs  
+kubectl create deploy ui --image=nginx --namespace prod
+kubectl create deploy ui --image=nginx --namespace dev 
+
 
 
 
