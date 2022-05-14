@@ -38,4 +38,3 @@ $ kubectl create -f dev.yaml
 
 
 
-
