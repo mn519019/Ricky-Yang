@@ -11,4 +11,7 @@ $ kubectl run webserver --image=nginx:latest
 
 # run with a yaml file
 $ kubectl create -f pod-nginx.yaml 
+
+# monitor your pods using watch command in CLI, default is every 2 second
+$ watch kubectl get pods -o wide 
 ```
