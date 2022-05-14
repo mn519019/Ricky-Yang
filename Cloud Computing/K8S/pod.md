@@ -14,4 +14,7 @@ $ kubectl create -f pod-nginx.yaml
 
 # monitor your pods using watch command in CLI, default is every 2 second
 $ watch kubectl get pods -o wide 
+
+# watch the pod (port 80 should be opened)
+$ curl <IP address> 
 ```
