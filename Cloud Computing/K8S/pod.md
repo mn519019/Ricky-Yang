@@ -44,6 +44,7 @@ spec:
 ```
 ## ssh into the pod from your master node a.k.a control-plane  ✔
 - It's similar like docker 
+- Multiple containers in the same pod uses a same IP 
 - <b>i</b> means interactive 
 - <b>t</b> means terminal 
 ```
