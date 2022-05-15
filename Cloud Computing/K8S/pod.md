@@ -1,5 +1,6 @@
 ## pod for kubernetes 👌
 
+- Before you start using k8s, you may reference https://github.com/mn519019/Ricky-Yang/blob/master/Cloud%20Computing/K8S/K8S_Set_Up.md to set up k8s in your enviornment
 - A Pod is a mnimal unit of the K8S API to show a container 
 - A pod may contain more than one container such as <b>web-server</b> and <b>web-log </b>
 
