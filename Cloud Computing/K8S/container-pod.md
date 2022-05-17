@@ -5,7 +5,7 @@
 - It ensures all te required services are running before starting the application.
 
 
-## Infrastructure contianer (pause containers)
+## Infrastructure contianer (pause containers) 🏗
 
 - When you create a container, a hidden <**pause**> container will be created simultaniously per pod.
 - A pause container manages ip, host, network, and other infra resources for corresponding containers. 
