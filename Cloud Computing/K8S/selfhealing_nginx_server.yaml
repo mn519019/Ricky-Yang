@@ -1,0 +1,16 @@
+# make sure contaienr port to be used with 80, thus we can check whether the GET request returns desired results
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-pod-liveness
+spec:
+  containers:
+  - name: nginx-container
+    image: nginx:1.14
+    ports:
+    - containerPort: 80
+      protocol: TCP
+    livenessProbe:
+      httpGet:
+        path: /
+        port: 80
