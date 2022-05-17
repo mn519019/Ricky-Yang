@@ -26,7 +26,14 @@ k8s basic command <br />
 ', '_self');">
 k8s selfhealing <br />
 </a>
+<a href="https://github.com/mn519019/Ricky-Yang/blob/master/Cloud%20Computing/K8S/container-pod.md
+" onclick="window.open(https://github.com/mn519019/Ricky-Yang/blob/master/Cloud%20Computing/K8S/container-pod.md
+', '_self');">
+k8s conainer pod (infra) <br />
+</a>
+
 
 ### Code 👩‍💻
 
 - k8s selfhealing code with nginx 
+- k8s init-container example
