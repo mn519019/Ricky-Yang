@@ -14,3 +14,8 @@ spec:
       httpGet:
         path: /
         port: 80
+      
+      #successThreshold: 1  
+      #timeoutSeconds: 1
+      #periodSeconds: 15  
+      #failureThreshold: 3
