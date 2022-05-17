@@ -9,7 +9,7 @@
 - We are going to focus on soft links this time. 
 - I often use this to debug system issues related to missing files, libraries, and so on. 
 
-### Symbolic link in Ubuntu 🔗
+### Symbolic link in Ubuntu 18.04 or 20.04 🔗
 
 - It may still be confisuing for you. Let me give you an example case.
 - You are in situation to update your Operating System but the latest version of OS is not fully compatible
