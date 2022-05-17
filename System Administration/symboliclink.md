@@ -16,7 +16,7 @@
 with previous version of OS. You were running a web application and the updated os is not fully fucntional in this case.
 Luckly, you found some data from log files saying that library14.s.0 is not available. 
 - As a first step you may verify creating a softlink that points library 13 with 14 and restart the web application.
-- If it works, you may unlink the symbolic link and restart the web application 
+- If it works, you may unlink the symbolic link and install the required library packages.
 
 ```
 $ ln -s <source file path> <symbolic file> 
