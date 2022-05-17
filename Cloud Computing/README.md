@@ -1,6 +1,6 @@
-# Ricky-Yang
+# Ricky-Yang for Cloud Computing Space 
 
-- k8s 
+- Kubernetes 
 
 - Docker 
 
