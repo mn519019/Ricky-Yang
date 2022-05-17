@@ -29,4 +29,4 @@ k8s selfhealing <br />
 
 ### Code 👩‍💻
 
-- k8s selfhealing code
+- k8s selfhealing code with nginx 
