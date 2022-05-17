@@ -1,4 +1,10 @@
-# Getting Started
+## What is SSH keys 
+- It enables the automation to ssh into the server. It grants safer access and control who can access 
+- SSH are consisting of two parts which are private and public keys 
+- You keep the private key and share the public keys tat you would like to authenticate and establis an enrypted communication channel between a client and a remote server over the internet
+- Port 22 is bening used by default. So ensure if you want to use <b>Secure Shell</b>(ssh) protocol. 
+
+## Getting Started
 1. This doucment is written for ubuntu 20.04 
 2. It is important you have ssh packges installed on your server 
 3. People know the idea that key pairs exist but they sometimes got confused what key needs to be placed in the remote server 
