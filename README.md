@@ -24,3 +24,4 @@
 - Location: Canada   
 - Resume: https://drive.google.com/file/d/1nNpH7152eCMG0_oHzu9VxRAafn7Qt1Q-/view?usp=sharing
 
+<b>©2022 Rick Yang. All rights reserved.</b>
