@@ -23,7 +23,7 @@ spec:
 # You will need to create a yaml file to run those services and then
 # mapp-container will start running. 
 # Simply copy and paste in the <name>.yaml and kubectl create -f <name>.yaml to pass initContainers requirements
----
+#---
 #apiVersion: v1
 #kind: Service
 #metadata:
@@ -33,7 +33,7 @@ spec:
 #  - protocol: TCP
 #    port: 80
 #    targetPort: 9376
----
+#---
 #apiVersion: v1
 #kind: Service
 #metadata:
