@@ -11,7 +11,7 @@
 
 ### Symbolic link in Ubuntu 🔗
 
-- It may still be confisuing for you. Let me give you an example case here.
+- It may still be confisuing for you. Let me give you an example case.
 - You are in situation to update your Operating System but the latest version of OS is not fully compatible
 with previous version of OS. You were running a web application and the updated os is not fully fucntional in this case.
 Luckly, you found some data from log files saying that library14.s.0 is not available. 
