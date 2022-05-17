@@ -1,4 +1,9 @@
-# Ricky-Yang
+## Ricky-Yang - System Administration (Linux) 
 
-This is for my daily analytics and stock management. 
-I do belive stock also requires general analytical skills and it does help me to boost my capital as well as the investment mindset.
+Here I would like to share my professional and co-op experience that are practical and technical. 
+I have identified that theoritcal understanding is important but applying it in the front-line environment is challenging. 
+More details and outlines are availabe through this directory. 
+
+## Contents 
+
+Symboliclink - 
