@@ -30,3 +30,7 @@ $ docker ps
 
 # You will see that nginx and pause container will be created simultaniously.
 ```
+
+## static pod **
+- A static pod is managed by **kubelet Daemon**
+- 
