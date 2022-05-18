@@ -33,4 +33,15 @@ $ docker ps
 
 ## static pod
 - A static pod is managed by **kubelet Daemon**
-- 
+- You do not need an API server, so you can run a static pod in the node01~03.
+- Go to /var/lib/kubernetes and change the **staticPodPath **if you need.
+- The pod will start runing when you save k8s yaml file in the **/etc/kubernetes/manifest**s directory
+- To delete the pod, you need to delete the yaml file 
+
+```
+$ vi /var/lib/kubelet/config.yaml 
+
+$ static pod path: /etc/Kubernetes/manifests
+
+$ systemctl restart kubelet
+```
