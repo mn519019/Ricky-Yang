@@ -55,4 +55,8 @@ $ systemctl restart kubelet
 - Limiting resource per pod may be efficient way to run healthy nodes
 - Resource **requests** and **limits** are being used to avoid system overload
 - If resource memory or cpu are over the set limits, the pod will be turned off and resecheduled.
+- **Memory Units**
+- 1MB = 1000 kb
+- 1MiB = 1024 kib
+- 1GiB - 1024 Mib
 
