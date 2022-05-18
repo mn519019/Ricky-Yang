@@ -31,7 +31,7 @@ $ docker ps
 # You will see that nginx and pause container will be created simultaniously.
 ```
 
-## static pod
+## static pod 🎃
 - A static pod is managed by **kubelet Daemon**
 - You do not need an API server, so you can run a static pod in the node01~03.
 - Go to /var/lib/kubernetes and change the **staticPodPath **if you need.
