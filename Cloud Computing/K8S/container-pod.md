@@ -32,6 +32,7 @@ $ docker ps
 ```
 
 ## static pod 🎃
+
 - A static pod is managed by **kubelet Daemon**
 - You do not need an API server, so you can run a static pod in the node01~03.
 - Go to /var/lib/kubernetes and change the **staticPodPath **if you need.
@@ -43,5 +44,13 @@ $ vi /var/lib/kubelet/config.yaml
 
 $ static pod path: /etc/Kubernetes/manifests
 
+# create a yaml file in the target node 
+
 $ systemctl restart kubelet
 ```
+
+## Assign resource into a pod ➕
+
+- It is important to understand how much resoure can be used per pod, otherwise the other pod may not run in full capacity. 
+- Limiting resource per pod may be efficient way to run healthy nodes
+
