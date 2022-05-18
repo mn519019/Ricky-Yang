@@ -42,7 +42,7 @@ $ docker ps
 ```
 $ vi /var/lib/kubelet/config.yaml 
 
-$ static pod path: /etc/Kubernetes/manifests
+# ensure static pod path: /etc/Kubernetes/manifests
 
 # create a yaml file in the target node 
 
@@ -53,4 +53,6 @@ $ systemctl restart kubelet
 
 - It is important to understand how much resoure can be used per pod, otherwise the other pod may not run in full capacity. 
 - Limiting resource per pod may be efficient way to run healthy nodes
+- Resource **requests** and **limits** are being used to avoid system overload
+- If resource memory or cpu are over the set limits, the pod will be turned off and resecheduled.
 
