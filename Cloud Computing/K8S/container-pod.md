@@ -60,3 +60,10 @@ $ systemctl restart kubelet
 - 1MiB = 1024 kib
 - 1GiB - 1024 Mib
 
+## Environment variable 🎈
+
+- When you start the pod, you can change environment variable against defined variables from the container.
+- You can change previosuly defined information using environment variable
+
+
+
