@@ -24,6 +24,7 @@ $ kubectl create rc-nginx --image=nginx -replicas=3 --selector=app=webui
 
 - rc-ngix is the name of the pod
 - rc-nginx is defined in the metadata 
+- Controller only looks after **"selector"** so manual change is not aplicable apart from **"selector"**
 ```
 
 $ kubectl edit rc rc-ngix 
