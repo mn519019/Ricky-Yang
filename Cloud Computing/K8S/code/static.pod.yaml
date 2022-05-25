@@ -1,3 +1,6 @@
+# It's important you create the yaml file in the manifest directory. 
+# Please reference a lecture note. 
+
 apiVersion: v1
 kind: Pod
 metadata:
