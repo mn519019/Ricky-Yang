@@ -1,0 +1,18 @@
+# creating test env variable
+# kubectl exec nginx-pod-env -it --/bin/bash 
+# then type env in the container, you will be able to see MYVAR
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-pod-env
+spec:
+  containers:
+  - name: nginx-container
+    image: nginx:1.14
+    ports:
+    - containerPort: 80
+      protocol: TCP
+    env:
+    - name: MYVAR
+      value: "testvalue"
