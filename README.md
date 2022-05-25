@@ -1,4 +1,4 @@
-# 🧑‍💻 Rick-Yang Daily IT Perks 🧑‍💻
+# 🧑‍💻 Rick Yang Daily IT Perks 🧑‍💻
 
 - This repository is to share my IT knowledge and improve my future career.
 - I believe this will help me stay up-to-date in the IT field. 
