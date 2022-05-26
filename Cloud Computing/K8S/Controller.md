@@ -52,3 +52,17 @@ selector:
   matchExpressions:
   -{key:version, operation: In, value:["1.14"]}
 ```
+
+### Deployment 
+
+- It controls Replicaset and manage numbers of the pods 
+- Rolling Update & Rolling Back 
+
+```
+# rolling update
+$ kubectl set image deployment <deploy name> <container name>=<new version image>
+
+# rolling back
+$ kubectl rollout history deployment <deploy_name>
+$ kubectl rollout undo deploy <deploy_name>
+```
