@@ -41,7 +41,7 @@ $ kubectl delete rs rs-nginx --cascade=false
 
 ```
 
-### Replicaset
+### Replicaset🕹
 
 - It plays a similar role with Replication Controller 
 - It has **'matchLabels'** and **'matchExpressions'** 
@@ -53,7 +53,7 @@ selector:
   -{key:version, operation: In, value:["1.14"]}
 ```
 
-### Deployment 
+### Deployment 🎇
 
 - It controls Replicaset and manage numbers of the pods 
 - Rolling Update & Rolling Back 
