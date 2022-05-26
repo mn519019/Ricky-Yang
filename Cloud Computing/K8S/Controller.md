@@ -36,6 +36,9 @@ kubectl scale rc rc-nginx --replicas=2
 $ vi rc-nginx.yaml 
 # You can always manually change the yaml file too 
 
+$ kubectl delete rs rs-nginx --cascade=false
+# Only deletes the controller, but keeps the pods
+
 ```
 
 ### Replicaset
