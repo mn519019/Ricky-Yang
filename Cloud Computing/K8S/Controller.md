@@ -33,7 +33,19 @@ $ kubectl edit rc rc-ngix
 kubectl scale rc rc-nginx --replicas=2 
 # This will change the replicas number
 
-# vi rc-nginx.yaml 
+$ vi rc-nginx.yaml 
 # You can always manually change the yaml file too 
 
+```
+
+### Replicaset
+
+- It plays a similar role with Replication Controller 
+- It has **'matchLabels'** and **'matchExpressions'** 
+
+```
+# example
+selector:
+  matchExpressions:
+  -{key:version, operation: In, value:["1.14"]}
 ```
