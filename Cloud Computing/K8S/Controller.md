@@ -70,5 +70,5 @@ $ kubectl rollout history deployment <deploy_name>
 $ kubectl rollout undo deploy <deploy_name>
 
 # check rollout history 
-$ kubectl history deploy <pod name> 
+$ kubectl history deployment <pod name> 
 ```
