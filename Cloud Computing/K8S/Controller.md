@@ -68,4 +68,7 @@ $ kubectl set image deployment <deploy name> <container name>=<new version image
 # rolling back
 $ kubectl rollout history deployment <deploy_name>
 $ kubectl rollout undo deploy <deploy_name>
+
+# check rollout history 
+$ kubectl history deploy <pod name> 
 ```
