@@ -59,8 +59,11 @@ selector:
 - Rolling Update & Rolling Back 
 
 ```
+# Create pods using --record
+$ kubectl create -f <yaml file> --record
+
 # rolling update
-$ kubectl set image deployment <deploy name> <container name>=<new version image>
+$ kubectl set image deployment <deploy name> <container name>=<new version image> --record 
 
 # rolling back
 $ kubectl rollout history deployment <deploy_name>
