@@ -78,4 +78,7 @@ $ kubectl history deployment <pod name>
 - Ensure every node runs a pod 
 - It ensures every node has a pod running evenly so effective application deployment is possible
 - Log monitoring can be used with DaemonSet. Since every pod needs to be monitored and logged the system details. 
+- roll back is possible using Daemonset. Simply change the application version and this will be redeployed by each node in order. 
+
+
 
