@@ -84,10 +84,30 @@ $ kubectl history deployment <pod name>
 
 - It maintains the pod status such as pod's name and volume (storage) 
 - Other controllers will create randon hashed names for creating pods 
+- "serviceName" needs to be added in the yaml file 
 
 ```
 # You can edit sf-nginx pods using below comment, so rollback and rollout is possible
 $ kubectl edit statefulsets.apps  sf-nginx 
+```
+
+### Job 🎐
+
+- k8s maintains the pods keep running 
+- Job Controller is suitable for batch operation 
+- A pod needs to be turned off when the batch operation is done
+- This helps a pod complete the batch operation
+
+```
+# completion : Start conainers time
+
+# parallelism: x number of pods will be created 
+
+# activeDeadlineSeconds: batch job needs to be done within a set time
+
+# restartPolicy: Never or OnFailure 
+
+# backoffLimit: If "OnFailure" is selected, then only try 3 times. 
 ```
 
 
