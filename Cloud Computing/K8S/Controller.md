@@ -108,6 +108,10 @@ $ kubectl edit statefulsets.apps  sf-nginx
 # restartPolicy: Never or OnFailure 
 
 # backoffLimit: If "OnFailure" is selected, then only try 3 times. 
+
+# Delete job controllers 
+$ kubectl delete job.apps centos-job 
+$ kubectl delete job.batches centos-job
 ```
 
 
