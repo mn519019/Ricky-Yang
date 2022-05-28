@@ -84,6 +84,10 @@ $ kubectl history deployment <pod name>
 
 - It maintains the pod status such as pod's name and volume (storage) 
 - Other controllers will create randon hashed names for creating pods 
-- 
+
+```
+# You can edit sf-nginx pods using below comment, so rollback and rollout is possible
+$ kubectl edit statefulsets.apps  sf-nginx 
+```
 
 
