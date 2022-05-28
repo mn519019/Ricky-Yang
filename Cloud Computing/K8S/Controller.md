@@ -72,3 +72,10 @@ $ kubectl rollout undo deploy <deploy_name> --to-revision=<number of revision>
 # check rollout history 
 $ kubectl history deployment <pod name> 
 ```
+
+### DaemonSet 💎
+
+- Ensure every node runs a pod 
+- It ensures every node has a pod running evenly so effective application deployment is possible
+- Log monitoring can be used with DaemonSet. Since every pod needs to be monitored and logged the system details. 
+
