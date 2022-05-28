@@ -80,5 +80,10 @@ $ kubectl history deployment <pod name>
 - Log monitoring can be used with DaemonSet. Since every pod needs to be monitored and logged the system details. 
 - roll back is possible using Daemonset. Simply change the application version and this will be redeployed by each node in order. 
 
+### StatefulSet 🎯
+
+- It maintains the pod status such as pod's name and volume (storage) 
+- Other controllers will create randon hashed names for creating pods 
+- 
 
 
