@@ -18,6 +18,7 @@
 ### Cluster IP  👓
 
 - As above mentioned, the cluster IP will enable multiple pods can be accessed randomly by using a clusterIP. 
+- It's normally used internally
 - Let's say you have multiple nginx pods running on the node 
 
 ```
@@ -72,5 +73,8 @@ Commercial support is available at
 </html>
 
 ```
+
+
+
 
 
