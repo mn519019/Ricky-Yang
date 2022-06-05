@@ -33,7 +33,7 @@ k8s conainer pod (infra) <br />
 </a>
 
 
-### Code 👩‍💻
+### Code doe labs👩‍💻
 
 - k8s selfhealing code with nginx 
 - k8s init-container example
