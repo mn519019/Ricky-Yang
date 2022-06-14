@@ -1,1 +1,15 @@
+# Certifcation Check 
+(probe_ssl_earliest_cert_expiry {instance=~"GD .*", zone=~"$zone"} -time())/86400 
+
+# Service Check
+up{instance=~"gd.*",job="node exporter",zone=~"$zone.*"}
+
+# CPU Utilization 
+100 -(avg by(instance) (rate(node_cpu_seconds_total{instance=~"gd.*",job="node exporter",mode="idle"}[2m]))* 100)
+
+# CPU USAGE-User 
+(avg by(instance) (irate(node_cpu_seconds_total{instance=~"gda.*",job="node exporter",zone=~"$zone",mode="user"}[2m])))
+
+# CPU USAGE-System
+(avg by(instance) (irate(node_cpu_seconds_total{instance=~"gda.*",job="node exporter",zone=~"$zone",mode="system"}[2m])))
 
