@@ -11,7 +11,7 @@
 
 2. Cloud Computing https://github.com/mn519019/Ricky-Yang/tree/master/Cloud%20Computing
 
-3. System Administration https://github.com/mn519019/Ricky-Yang/tree/master/System%20Administration
+3. System Administration https://github.com/mn519019/Ricky-Yang/tree/master/System_Administration
 
 4. System Architecture https://github.com/mn519019/Ricky-Yang/tree/master/System%20Architecture
 
