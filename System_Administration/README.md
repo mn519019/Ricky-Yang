@@ -8,5 +8,5 @@ More details are availabe through this directory.
 
 - SSH key 
 - Symboliclink
-- Change Words from yml file 
+- Change Words from yml file (Shell Scripting)
 
