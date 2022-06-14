@@ -1,7 +1,15 @@
 #!/bin/bash
-
+############SCENARIO#################
+# Your task is creating prometheus alerts to monitor system metrics accurately.
+# Your manager asked you to delete all zone from given alerts 
+# Since he wants to apply the alert rules for all nodes
+# Therefore, delete all the zone in the script efficiently. 
+# In production environment, there will be more than coutnable numbers 
+# You can use a script to delete all if you wish
 # You are required to delete > , zone=~"stg35|qa35|dev35"
 # Name of the file: test-rules.yml
+#################End#################
+
 
 echo "Please type the file name: "
 read File
@@ -19,3 +27,5 @@ else
 fi
    
 
+# 13th June 2022 # 
+# Solved the issue #
