@@ -5,6 +5,10 @@
 # Desired HTTP(s) STATUS CODE 200
 # The script can be improved to reflect multiple HTTP(s) Status Code if you wish!
 
+# TEST CASES
+# https://rickyyang.netlify.com -> 200 will success
+# https://google.ca -> 302 will fail
+
 
 echo "Please state how many server would you like to check!"
 read n 
@@ -17,7 +21,7 @@ do
         if [ "$res" -ne 200 ]; then 
             echo "The server is not stable. Status code $res."
         else
-            echo "Status code is $res. Successfully get the http status."
+            echo "Successfully get the desired http status. Status code $res."
             exit 0
         fi
 done
