@@ -20,7 +20,7 @@ done
 #echo ${array[@]} | sed 's/^.*= //'
 
 for str in ${array[@]}; do
-  echo $str | sed 's/^.*= //'
+  echo $str
 done
 
 
