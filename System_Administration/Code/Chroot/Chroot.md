@@ -2,7 +2,7 @@
 
 - You may think as a very simple version of a conatiner that can run a process separately not from the root directory.
 - chroot really means "change root directory"
-- Every OS has "/" which is called root directory as well. Every directories and files exist under the "root directory" A.K.A "/".
+- Every OS has "/" which is called root directory as well. Directories and files exist under the "root directory" A.K.A "/".
 - However, Windows use "\" as its root directory.
 
 Let's assume we have a process called "R" 
