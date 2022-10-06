@@ -22,8 +22,8 @@ else
                     
                 # grep two patterns which are status code and path
                 code=$(echo $line | grep -Eo '"(GET|POST) /[^ ]* HTTP/[012].[0-9]" [1-6][0-9][0-9]' | cut -d' ' -f4)
-				# Get the HTTP path from the log entry
-				path=$(echo $line | grep -Eo '"(GET|POST) /[^ ]* HTTP/[012].[0-9]" [1-6][0-9][0-9]' | cut -d' ' -f2)
+		# Get the HTTP path from the log entry
+		path=$(echo $line | grep -Eo '"(GET|POST) /[^ ]* HTTP/[012].[0-9]" [1-6][0-9][0-9]' | cut -d' ' -f2)
 
                 if [[ $code -eq "500" ]]
                 then
