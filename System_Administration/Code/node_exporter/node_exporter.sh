@@ -35,3 +35,6 @@ systemctl daemon-reload;
 systemctl enable node_exporter
 systemctl start node_exporter
 systemctl status node_exporter
+
+# Ensure port 9100 is opened 
+# curl localhost:9100/metrics and verify the output.
